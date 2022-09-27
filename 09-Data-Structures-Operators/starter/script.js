@@ -28,5 +28,6 @@ const restaurant = {
 
     openingHours,
 }
-const HoursMap = new Map(Object.entries(openingHours))
-console.log(HoursMap)
+const question = new Map(
+    ["question", "what is the best programming language in the world"], [1, "C"], [2, "pyton"], [3, "javaScript"], ["answer", 3][(true, "nice good answer")], [false, "false answer💠"]
+)
